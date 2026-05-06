@@ -8,12 +8,6 @@ Zeabur 邮件发送的 Streamlit 可视化面板。
 pip3 install -r requirements.txt
 ```
 
-在项目根目录创建 `.env`：
-
-```bash
-ZEABUR_API_KEY=your_api_key
-```
-
 ## 启动
 
 ```bash
@@ -32,3 +26,4 @@ streamlit run main.py
 ## 签名
 
 页面侧边栏会显示并应用你之前的 HTML 签名，发信时默认附加到 HTML 正文末尾。
+API Key 需要在页面侧边栏手动输入。
